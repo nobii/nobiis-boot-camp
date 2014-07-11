@@ -1,0 +1,77 @@
+members:
+  -
+    name: のびー
+    img: http://resource.kayac.com.s3.amazonaws.com/uploads/attachment/member/354/grid.png
+    checks:
+      native_android: true
+      native_ios: false
+      cocos_android: true
+      cocos_ios: false
+      unity_android: true
+      unity_ios: false
+
+  -
+    name: ぎーすー
+    img: http://resource.kayac.com.s3.amazonaws.com/uploads/attachment/member/357/grid.png
+    checks:
+      native_android: false
+      native_ios: false
+      cocos_android: false
+      cocos_ios: false
+      unity_android: false
+      unity_ios: false
+              
+
+
+
+name: nobiis-boot-camp
+
+url:
+  https://github.com/fujisawa-shin/nobiis-boot-camp
+
+repository:
+  git://github.com/fujisawa-shin/nobiis-boot-camp.git
+
+title:
+  nobiis-boot-camp
+
+description:
+  nobiis boot camp.
+
+keywords: []
+
+favicon_url: ''
+
+viewport: 
+  - width=device-width
+  - initial-scale=1.0
+  - maximum-scale=1.0
+  - user-scalable=0
+
+ios_icon_url: ''
+
+facebook_app_id: ''
+
+ogp_type: 'website'
+
+ogp_image_url: ''
+ogp_image_width: 0
+ogp_image_height: 0
+
+
+sns:
+  twitter:
+    sharetext:
+      nobiis boot camp.      
+    sharehashtag: []
+
+  facebook:
+    app_id: ''
+    sharetext:
+      nobiis boot camp.
+
+ogp:
+  image: 
+    url: https://github.com/fujisawa-shin/nobiis-boot-camp/img/ogp-icon.png
+    width: 300
+    height: 300

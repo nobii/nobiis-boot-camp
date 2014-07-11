@@ -1,0 +1,29 @@
+<% layout_default(buf, function (buf) { %>
+<%
+locals.checkmark = function (flag) {
+  if (flag) {
+    return '<span class="mega-octicon octicon-check"></span>';
+  } else {
+    return '<span class="mega-octicon octicon-x"></span>'
+  }
+}
+%><table class="member-table">
+<tr>
+<td></td>
+<td>Android<br />native</td>
+<td>iOS<br />native</td>
+<td>Android<br />Unity</td>
+<td>iOS<br />Unity</td>
+<td>Android<br />Cocos2d-x</td>
+<td>iOS<br />Cocos2d-x</td>
+</tr><% members.forEach(function (member) { %>
+<tr>
+<td><img src="<%= member.img %>" alt="<%= member.name %>"/></td>
+<td><%- checkmark(member.checks.native_android) %></td>
+<td><%- checkmark(member.checks.native_ios) %></td>
+<td><%- checkmark(member.checks.unity_android) %></td>
+<td><%- checkmark(member.checks.unity_ios) %></td>
+<td><%- checkmark(member.checks.cocos_android) %></td>
+<td><%- checkmark(member.checks.cocos_ios) %></td>
+</tr><% }) %>
+<!-- /.member-table --></table><% }) %>
