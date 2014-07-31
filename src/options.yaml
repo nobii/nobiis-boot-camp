@@ -19,7 +19,7 @@ members:
       cocos_android: false
       cocos_ios: false
       unity_android: true
-      unity_ios: false
+      unity_ios: true
 
   -
     name: いでおん
