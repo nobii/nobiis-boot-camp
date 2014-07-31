@@ -18,19 +18,19 @@ members:
       native_ios: false
       cocos_android: false
       cocos_ios: false
-      unity_android: false
+      unity_android: true
       unity_ios: false
 
   -
-    name: ばびこ
+    name: いでおん
     img: http://resource.kayac.com.s3.amazonaws.com/uploads/attachment/member/241/grid.png
     checks:
       native_android: false
       native_ios: false
       cocos_android: false
       cocos_ios: false
-      unity_android: false
-      unity_ios: false
+      unity_android: true
+      unity_ios: true
 
   -
     name: わりえもん
@@ -40,8 +40,8 @@ members:
       native_ios: false
       cocos_android: false
       cocos_ios: false
-      unity_android: false
-      unity_ios: false
+      unity_android: true
+      unity_ios: true
 
   -
     name: ぎーすー
@@ -51,8 +51,8 @@ members:
       native_ios: false
       cocos_android: false
       cocos_ios: false
-      unity_android: false
-      unity_ios: false
+      unity_android: true
+      unity_ios: true
               
 
 
