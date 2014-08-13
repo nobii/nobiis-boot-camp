@@ -50,7 +50,7 @@ members:
       native_android: false
       native_ios: false
       cocos_android: false
-      cocos_ios: false
+      cocos_ios: true
       unity_android: true
       unity_ios: true
               
